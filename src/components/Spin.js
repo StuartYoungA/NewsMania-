@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import loading from './Spinnergif.gif'
-export class Spin extends Component {
-  render() {
+const Spin= ()=> {
+  
     return (
     <div className="d-flex justify-content-center">
         <img  src={loading} alt="loading" />
@@ -9,7 +9,7 @@ export class Spin extends Component {
       
       
     )
-  }
+  
 }
 
 export default Spin
